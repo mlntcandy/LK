@@ -60,7 +60,7 @@ const LinkItemStyled = styled(Link)<{ color: string; amount: number }>`
 
         min-width: calc(25% - 10px);
         max-width: calc(25% - 10px);
-        height: 50px;
+        justify-content: center;
         gap: 3px;
 
         .icon {
@@ -68,6 +68,7 @@ const LinkItemStyled = styled(Link)<{ color: string; amount: number }>`
         }
         .subtext {
             font-size: 0.6rem;
+            height: 0.8rem;
         }
     }
 `
